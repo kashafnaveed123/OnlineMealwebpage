@@ -1,0 +1,56 @@
+/* Navigation section  */
+a {
+    /* color: blue; */
+    font-size: .6rem;
+    padding: .3px;
+    margin-left: .2rem;
+    margin-right: .2rem;
+}
+/* Home Section  */
+#home h1 {
+    font-size: 1.3rem;
+}
+#home p {
+    font-size: .5rem;
+}
+.btn {
+    border-radius: .5rem;
+    padding: .2rem 1rem;
+    font-size: .8rem;
+}
+/* Services Section  */
+.box{
+    /* margin-left: 1rem;
+    margin-right: .6rem; */
+    width: 90%;
+    margin: auto;
+}
+/* Client Section  */
+#client-heading {
+font-size: 2rem;
+}
+
+.client-items{
+    margin: .5rem ;
+ }
+/* Contact Section  */
+form{
+        width: 60%;
+    }
+    input {
+        height: 1.2rem;
+        font-size: .8rem;
+    }
+
+    /* fOOTER  */
+    footer{
+        margin-top: 5px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        font-size: 12px;
+    }
+/* utility class  */
+.h-secondary {
+    font-family: 'Bree Serif', serif;
+    font-size: 1rem;
+}

@@ -1,0 +1,235 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* navigation bar */
+:root {
+    --navbar-height: 59px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: .7;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.logo {
+    margin-left: 1rem;
+    margin-right: 2rem;
+    border-radius: 100%;
+}
+
+/* links are here */
+.links {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: 'Baloo Bhai', 'cursive';
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 2rem;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 2rem;
+}
+
+/* home styling is here */
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 540px;
+    margin: auto;
+}
+
+#home::before {
+    content: "";
+    background: url(./img/bg1.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 645px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: .89;
+}
+
+#home p {
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.2rem;
+}
+
+#home h1 {
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn {
+    margin-top: 1.5rem;
+    color: white;
+    background-color: brown;
+    border: 2px solid rgb(173, 77, 77);
+    border-radius: .7rem;
+    padding: .5rem 3rem;
+    font-size: 1.4rem;
+}
+
+.btn:hover {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* our services styling are here */
+.services-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+#title {
+    /* background-color: aqua; */
+    margin-top: 7rem;
+    padding-top: 2.7rem;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid brown;
+    background-color: rgb(238, 244, 244);
+    border-radius: 1.5rem;
+    width: 25%;
+    align-items: center;
+    padding: 1.5rem;
+    margin-right: 2rem;
+    text-align: center;
+}
+
+.box p {
+    font-family: 'Bree Serif', serif;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* Clients section  */
+#client-section {
+    position: relative;
+padding-top: 3rem;
+height: 600px;
+}
+
+#client-section::before {
+    content: "";
+    position: absolute;
+    background-image: url('./img/bg.jpg') ;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .3;
+}
+
+#client-heading {
+    text-align: center;
+}
+
+.client-box {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+flex-wrap: wrap;
+}
+.client-items{
+   margin: 2rem ;
+}
+#client-section img{
+    height: 127px;
+}
+/* Contact section  */
+#contact-section{
+padding-top: 3rem;
+position: relative;
+}
+#contact-section::before{
+    content: "";
+    position: absolute;
+    background-image: url('./img/interior.jpg') ;
+background-position: cover; 
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .3;
+    }
+form{
+display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+}
+input {
+    height: 1.9rem;
+    font-size: 1.2rem;
+}
+textarea {
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input:hover{
+    border: 2px solid grey;
+    border-radius: .2rem;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-self: baseline;
+    justify-content: center;
+    margin-top: 8px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+/* Utility Classes */
+.h-primary {
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+}
+.h-secondary {
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+}
+.btn {
+    margin-top: 1.5rem;
+    border-radius: .7rem;
+    padding: .5rem 3rem;
+    font-size: 1.4rem;
+}

@@ -1,0 +1,86 @@
+/* Navigation section  */
+a {
+    color: blue;
+    font-size: .5rem;
+    padding: .3px;
+    margin-left: .1rem;
+    margin-right: .1rem;
+}
+.logo {
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+
+/* Home Section  */
+#home h1 {
+    font-size: .9rem;
+}
+#home p {
+    font-size: .4rem;
+    text-align: center;
+}
+.btn {
+    border-radius: .4rem;
+    padding: .1rem .5rem;
+    font-size: .6rem;
+}
+#home::before {
+    content: "";
+    background: url(./img/bg1.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 433px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: .89;
+}
+
+
+
+/* Client Section  */
+.client-items{
+    margin: .2rem;
+}
+/* Services Section  */
+.box{
+    width: 90%;
+    margin: auto;
+    margin-top: .3rem;
+        padding: .5rem;
+}
+#title {
+    margin-top: 4rem;
+    padding-top: 2.7rem;
+}
+
+/* Client section  */
+#client-section img{
+    overflow: hidden;
+}
+.client-box {
+    overflow: hidden;
+}
+
+
+ /* Contact Section  */
+form{
+    width: 90%;
+}
+textarea {
+    font-size: .9rem;
+}
+
+/* Footer  */
+footer{
+    margin-top: 5px;
+    font-size: 7px;
+    padding-top: 10px;
+
+}
+/* utility classes */
+.h-primary {
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+}

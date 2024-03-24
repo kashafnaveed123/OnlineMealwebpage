@@ -1,0 +1,32 @@
+/* Navigation section  */
+a {
+    /* color: blue; */
+    font-size: .6rem;
+    padding: .3px;
+    margin-left: .1rem;
+    margin-right: .4rem;
+}
+
+
+/* home section  */
+#home h1 {
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
+}
+#home p {
+    font-size: .8rem;
+    text-align: center;
+}
+.btn {
+    margin-top: 1.5rem;
+    border-radius: .7rem;
+    padding: .3rem 2rem;
+    font-size: 1.2rem;
+}
+/* Services section  */
+.box{
+    /* margin-left: 1.5rem;
+    margin-right: .6rem; */
+    width: 90%;
+    margin: auto;
+}
