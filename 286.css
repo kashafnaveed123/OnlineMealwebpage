@@ -1,6 +1,6 @@
 /* Navigation section  */
 a {
-    color: blue;
+    /* color: blue; */
     font-size: .5rem;
     padding: .3px;
     margin-left: .1rem;
@@ -13,6 +13,9 @@ a {
 
 
 /* Home Section  */
+#home {
+height: 449px;
+}
 #home h1 {
     font-size: .9rem;
 }
@@ -46,8 +49,8 @@ a {
 /* Services Section  */
 .box{
     width: 90%;
-    margin: auto;
-    margin-top: .3rem;
+    /* margin: auto; */
+    margin-top: 1rem;
         padding: .5rem;
 }
 #title {

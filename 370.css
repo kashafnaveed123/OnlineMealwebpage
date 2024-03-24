@@ -20,11 +20,11 @@ a {
 }
 /* Services Section  */
 .box{
-    /* margin-left: 1rem;
-    margin-right: .6rem; */
+    /* /* margin-left: 1rem; */
+    /* margin-top: 1rem; */
     width: 90%;
-    margin: auto;
-}
+    margin: 1rem auto;
+} 
 /* Client Section  */
 #client-heading {
 font-size: 2rem;
