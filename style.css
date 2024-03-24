@@ -12,7 +12,8 @@
 #navbar {
     display: flex;
     align-items: center;
-    position: sticky;
+    background-color: black;
+    /* position: sticky; */
     top: 0px;
 }
 
@@ -145,14 +146,14 @@ a:hover {
 #client-section {
     position: relative;
 padding-top: 3rem;
-height: 600px;
+height: 550px;
 }
 
 #client-section::before {
     content: "";
     position: absolute;
     background-image: url('./img/bg.jpg') ;
-    height: 100%;
+    height: 550px;
     width: 100%;
     z-index: -1;
     opacity: .3;
@@ -185,7 +186,7 @@ position: relative;
     position: absolute;
     background-image: url('./img/interior.jpg') ;
 background-position: cover; 
-    height: 100%;
+    height: 610px;
     width: 100%;
     z-index: -1;
     opacity: .3;
@@ -215,8 +216,8 @@ footer{
     align-self: baseline;
     justify-content: center;
     margin-top: 8px;
-    padding-bottom: 15px;
-    padding-top: 15px;
+    padding-bottom: 7px;
+    padding-top: 7px;
 }
 /* Utility Classes */
 .h-primary {
