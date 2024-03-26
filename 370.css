@@ -2,7 +2,7 @@
 a {
     /* color: blue; */
     font-size: .6rem;
-    padding: .3px;
+    padding: .5px .8rem;
     margin-left: .2rem;
     margin-right: .2rem;
 }
@@ -41,6 +41,9 @@ form{
         height: 1.2rem;
         font-size: .8rem;
     }
+    #contact-section::before{
+        height: 515px;
+        }
 
     /* fOOTER  */
     footer{

@@ -69,7 +69,7 @@ a:hover {
 
 #home::before {
     content: "";
-    background: url(./img/bg1.jpg) no-repeat center center/cover;
+    background: url(./bg1.jpg) no-repeat center center/cover;
     position: absolute;
     height: 645px;
     width: 100%;
@@ -152,8 +152,8 @@ height: 550px;
 #client-section::before {
     content: "";
     position: absolute;
-    background-image: url('./img/bg.jpg') ;
-    height: 550px;
+    background-image: url('./bg.jpg') ;
+    height: 600px;
     width: 100%;
     z-index: -1;
     opacity: .3;
@@ -180,13 +180,14 @@ flex-wrap: wrap;
 #contact-section{
 padding-top: 3rem;
 position: relative;
+padding-top: 6.1rem;
 }
 #contact-section::before{
     content: "";
     position: absolute;
-    background-image: url('./img/interior.jpg') ;
+    background-image: url('./interior.jpg') ;
 background-position: cover; 
-    height: 610px;
+    height: 527px;
     width: 100%;
     z-index: -1;
     opacity: .3;
@@ -198,15 +199,21 @@ display: flex;
     margin: auto;
 }
 input {
-    height: 1.9rem;
-    font-size: 1.2rem;
+    height: 1.4rem;
+    font-size: .8rem;
 }
 textarea {
-    font-size: 1.2rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+    font-family: 'Bree Serif', serif;
+    
 }
 input:hover{
     border: 2px solid grey;
+    border-radius: .2rem;
+}
+input:active{
+    /* border: 2px solid grey; */
+    box-shadow: 2px 3px 28px -5px rgba(71,58,58,0.75);
     border-radius: .2rem;
 }
 footer{
@@ -218,6 +225,7 @@ footer{
     margin-top: 8px;
     padding-bottom: 7px;
     padding-top: 7px;
+
 }
 /* Utility Classes */
 .h-primary {
@@ -233,4 +241,8 @@ footer{
     border-radius: .7rem;
     padding: .5rem 3rem;
     font-size: 1.4rem;
+}
+.h-tertiary{
+    font-family: 'Bree Serif', serif;
+    font-size: 1.2rem;
 }

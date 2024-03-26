@@ -2,7 +2,7 @@
 a {
     /* color: blue; */
     font-size: .5rem;
-    padding: .3px;
+    padding: .5px .8rem;
     margin-left: .1rem;
     margin-right: .1rem;
 }
@@ -74,6 +74,9 @@ form{
 textarea {
     font-size: .9rem;
 }
+#contact-section::before{
+    height: 500px;
+    }
 
 /* Footer  */
 footer{
